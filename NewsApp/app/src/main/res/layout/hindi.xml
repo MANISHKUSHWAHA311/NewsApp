@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Hindi"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-10dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:background="@drawable/txtbg"
+        android:fontFamily="@font/baloo"
+        android:text="News 24"
+        android:textAlignment="center"
+        android:textColor="#F8F7F7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/news24btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/news24btn"
+        app:layout_constraintTop_toBottomOf="@+id/news24btn" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:background="@drawable/txtbg"
+        android:fontFamily="@font/baloo"
+        android:text="Aaj Tak"
+        android:textAlignment="center"
+        android:textColor="#FAF7F7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/aajtakbtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/aajtakbtn"
+        app:layout_constraintTop_toBottomOf="@+id/aajtakbtn" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:background="@drawable/txtbg"
+        android:fontFamily="@font/baloo"
+        android:text="News Nation"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/newsnationbtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/newsnationbtn"
+        app:layout_constraintTop_toBottomOf="@+id/newsnationbtn" />
+
+    <ImageButton
+        android:id="@+id/newsnationbtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/news_nation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/news24btn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/news24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/aajtakbtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/aajtakoriginal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/indiatvbtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/indiatv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/abpnewsbtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/abp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/zeenewsbtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/zeenewsoriginal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:background="@drawable/txtbg"
+        android:fontFamily="@font/baloo"
+        android:text="Zee News"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/zeenewsbtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/zeenewsbtn"
+        app:layout_constraintTop_toBottomOf="@+id/zeenewsbtn" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:background="@drawable/txtbg"
+        android:fontFamily="@font/baloo"
+        android:text="ABP news"
+        android:textAlignment="center"
+        android:textColor="#FDFCFC"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/abpnewsbtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/abpnewsbtn"
+        app:layout_constraintTop_toBottomOf="@+id/abpnewsbtn" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:background="@drawable/txtbg"
+        android:fontFamily="@font/baloo"
+        android:text="India TV"
+        android:textAlignment="center"
+        android:textColor="#FDFAFA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/indiatvbtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/indiatvbtn"
+        app:layout_constraintTop_toBottomOf="@+id/indiatvbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

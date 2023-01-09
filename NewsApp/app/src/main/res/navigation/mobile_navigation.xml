@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/hindi">
+    <fragment
+        android:id="@+id/hindi"
+        android:name="com.example.newsapp.Fragment.Hindi"
+        android:label="Hindi"
+        tools:layout="@layout/hindi" >
+        <action
+            android:id="@+id/action_hindi_to_english"
+            app:destination="@id/english" />
+    </fragment>
+    <fragment
+        android:id="@+id/english"
+        android:name="com.example.newsapp.Fragment.English"
+        android:label="English"
+        tools:layout="@layout/english" >
+        <action
+            android:id="@+id/action_english_to_marathi"
+            app:destination="@id/marathi" />
+    </fragment>
+    <fragment
+        android:id="@+id/marathi"
+        android:name="com.example.newsapp.Fragment.Marathi"
+        android:label="Marathi"
+        tools:layout="@layout/marathi" >
+        <action
+            android:id="@+id/action_marathi_to_bengali"
+            app:destination="@id/bengali" />
+    </fragment>
+    <fragment
+        android:id="@+id/bengali"
+        android:name="com.example.newsapp.Fragment.Bengali"
+        android:label="Bengali"
+        tools:layout="@layout/bengali" >
+        <action
+            android:id="@+id/action_bengali_to_gujarati"
+            app:destination="@id/gujarati" />
+    </fragment>
+    <fragment
+        android:id="@+id/gujarati"
+        android:name="com.example.newsapp.Fragment.Gujarati"
+        android:label="Gujarati"
+        tools:layout="@layout/gujarati" >
+        <action
+            android:id="@+id/action_gujarati_to_malyalam"
+            app:destination="@id/malyalam" />
+    </fragment>
+    <fragment
+        android:id="@+id/malyalam"
+        android:name="com.example.newsapp.Fragment.Malyalam"
+        android:label="Malyalam"
+        tools:layout="@layout/malyalam" >
+        <action
+            android:id="@+id/action_malyalam_to_telugu"
+            app:destination="@id/telugu" />
+    </fragment>
+    <fragment
+        android:id="@+id/telugu"
+        android:name="com.example.newsapp.Fragment.Telugu"
+        android:label="Telugu"
+        tools:layout="@layout/telugu" >
+        <action
+            android:id="@+id/action_telugu_to_tamil"
+            app:destination="@id/punjabi" />
+    </fragment>
+    <fragment
+        android:id="@+id/punjabi"
+        android:name="com.example.newsapp.Fragment.Punjabi"
+        android:label="Punjabi"
+        tools:layout="@layout/punjabi" />
+</navigation>
